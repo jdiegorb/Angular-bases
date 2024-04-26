@@ -10,7 +10,7 @@ export class ListComponent {
 
   @Output()
   public onDelete: EventEmitter<number> = new EventEmitter();
-  public onDelete2 = new EventEmitter<number>();
+  // public onDelete2 = new EventEmitter<number>();
 
   @Input()
   public characterList: Characters[] = [{

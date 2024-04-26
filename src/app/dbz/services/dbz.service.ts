@@ -34,13 +34,13 @@ export class DbzService {
   }
 
 
-  deleteCharacterById(id:string){
-    this.characters = this.characters.filter( character => character !)
-  }
-
-  // onDeleteCharacter(index:any){
-  //     console.log({index});
-  //     this.characters.splice(index, 1)
+  // deleteCharacterById(id:string){
+  //   this.characters = this.characters.filter( character => character !)
   // }
+
+  onDeleteCharacter(index:any){
+      console.log({index});
+      this.characters.splice(index, 1)
+  }
 
 }
