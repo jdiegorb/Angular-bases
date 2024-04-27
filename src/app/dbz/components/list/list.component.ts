@@ -18,7 +18,7 @@ export class ListComponent {
     power: 10
   }];
 
-  onDeleteCharacter(id: string):void{
+  onDeleteCharacter(id?: string):void{
     this.onDelete.emit(id);
   }
 
